@@ -1,0 +1,66 @@
+body {
+  font-size: 15px;
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN";
+  line-height: 1.8;
+}
+
+a {
+  color: #444444;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  height: 152px;
+  margin-top: 50px;
+  background-color: pink;
+}
+
+.header-container {
+  background-color: skyblue;
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left h1 {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.header-left p {
+  font-size: 18px;
+}
+
+.header-right {
+  padding-top: 45px;
+  float: right;
+}
+
+.fas {
+  margin-left: 10px;
+}
+
+.header-nav li {
+  float: left;
+  font-size: 16.88px;
+  padding: 0 15px;
+  position: relative;
+}
+
+.header-nav li ul {
+  position: absolute;
+  top: 45px;
+  left: -5px;
+  height: 0;
+}
+
+/* .header-nav li li {
+  width: 200px;
+} */
